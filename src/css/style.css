@@ -24,7 +24,6 @@ body {
 .coding {
     object-fit: cover;
     width: 30rem;
-    max-width: 20rem;
     margin-bottom: 1rem;
 }
 
@@ -68,4 +67,15 @@ button {
 .github img {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+    .coding {
+        object-fit: cover;
+        width: 15rem;
+        margin-bottom: 1rem;
+    }
+    #container {
+        padding: 5rem 0
+    }
 }
